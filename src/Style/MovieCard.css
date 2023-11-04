@@ -1,0 +1,81 @@
+.cards {
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: 50vh;
+}
+.MovieCard {
+    width: 37%;
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    align-items: center;
+    background-color: #121212;
+    padding: 1rem;
+    gap: 2rem;
+}
+.MovieCard img {
+    width: 25%;
+}
+.MovieCont{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.downloadLink {
+    color: white;
+    border: 1px solid;
+    padding: 0.3rem;
+    background-color: #a23600;
+    border-radius: 1rem;
+}
+@media only screen and (width <= 430px) {
+    .cards {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .MovieCard {
+        width: 78%;
+        border: 2px solid;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 1rem;
+        align-items: center;
+        background-color: #121212;
+        padding: 0.5rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .MovieCard img {
+        width: 50%;
+        object-fit: contain;
+    }
+    .MovieCont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .downloadLink{
+        color: white;
+        border: 1px solid;
+        padding: 0.3rem;
+        background-color: #a23600;
+        border-radius: 1rem;
+    }
+}
