@@ -6,7 +6,7 @@ const Footer = () => {
     <>
     <div className="footerdiv">
         <div className="dev">
-        <span>Developer-Arpit Agrahari</span><br />
+        <span>Developer-Rohit,gyanesh,ravi</span><br />
         <a href="mailto:omagrahri55@gmail">E-mail-omagrahri55@gmail</a><br />
         <a href="tel:+918840689883">Phone-8840689883</a><br />
         <span>Location-Delhi,India</span><br />
@@ -20,6 +20,7 @@ const Footer = () => {
         <AiFillInstagram className='scoialImg'/><span className='scoialWord'>Instagram</span><br />
         </div>
     </div>
+    {/* hellow */}
     </>
   )
 }
